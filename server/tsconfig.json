@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Specify ECMAScript target version
+    "module": "commonjs", // Node.js uses commonjs
+    "rootDir": "./src", // Source folder
+    "outDir": "./dist", // Output folder
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Allows import syntax
+    "skipLibCheck": true, // Skip type checks for libraries
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["src/**/*.ts"], // Include all .ts files in src
+  "exclude": ["node_modules"] // Exclude node_modules
+}
